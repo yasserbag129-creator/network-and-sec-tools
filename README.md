@@ -23,3 +23,14 @@ python3 idor_scanner.py <url> <cookie>
 
 Exemple :
 python3 idor_scanner.py http://127.0.0.1:5001 abc123
+
+# Path Traversal QA Tester
+
+Script Python permettant de tester automatiquement la résistance d'un paramètre HTTP face à différents vecteurs de Path Traversal.
+
+## Prérequis
+
+- Python 3
+- Bibliothèque `requests` :
+  ```bash
+  pip install requests
